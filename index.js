@@ -27,7 +27,11 @@ const gamesContainer = document.getElementById("games-container");
 
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
+    for(let i = 0; i < games.length; i++){
+        let gameCard = document.createElement("div");
+        element.classList.add("gameCard")
 
+    }
     // loop over each item in the data
 
 
