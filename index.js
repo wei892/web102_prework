@@ -62,7 +62,9 @@ addGamesToPage(GAMES_JSON);
 const contributionsCard = document.getElementById("num-contributions");
 
 // use reduce() to count the number of total contributions by summing the backers
-
+// const to= games.reduce((numCount, games)=> {
+//     return numCount + games.backers;
+// });
 
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
 
