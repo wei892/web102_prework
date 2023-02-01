@@ -36,6 +36,7 @@ function addGamesToPage(games) {
             <h3> ${games[i].name}</h3>
             <h4> ${games[i].description}</h4>
             <h4> Backers: ${games[i].backers}</h4>
+            <a href = "game.html"?name=${games[i].name}> Learn More </a>
         `
         gamesContainer.appendChild(gameDiv);
     }
@@ -185,7 +186,17 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
 });
 
-let top2Funded = [...sortedGames[1]];
+let [top, second, ...otherGames] = sortedGames;
+const {name:topName, description:topDesc, pledged:topPledge, goal:topGoal, backers:topBackers, img:topImg} = top;
+const {name:secName, description:secDesc, pledged:secPledge, goal:secGoal, backers:secBackers, img:secImg} = second;
+
+const topDiv = document.createElement("div");
+topDiv.innerHTML = `${topName}`;
+firstGameContainer.appendChild(topDiv);
+const secDiv = document.createElement("div");
+secDiv.innerHTML = `${secName}`;
+secondGameContainer.appendChild(secDiv);
+
 // use destructuring and the spread operator to grab the first and second games
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
