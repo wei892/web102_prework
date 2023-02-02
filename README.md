@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/Snd49WT' title='Wei Lin Li - 102 Pre-Work 2023 Demo' width='' alt='Video Walkthrough' />
+<img src='Animation.gif' title='Wei Lin Li - 102 Pre-Work 2023 Demo' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
@@ -34,7 +34,6 @@ GIF created with ScreenToGif
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
 One of the challeges that I had while working on this project was figuring out how to use spread and destructuring. Even though there were some examples provided, I wasn't able to get it at first and had to search these functions up to understand its use in various examples.
 Another one of my challenge was that I wanted to create a progress bar for backers to see a visual layout to see how the pledge is progressing towards the goal. I understood that I needed to do this in the js file to be able collect pledge and goal data in order to execute the calculations. However, I was unable to figure out how to do styling with Javascript. So I decided to create a suggestion layout and a pledge form. If I were to learn more, I'd like to learn about ways I collect the data entered by users and display them. For example, I would like to be able to display given suggestions so that other users may vote for them or asked to be included in an email list so that when the game is available for pledging, users will be notified. Another goal I'd like to add is that the backer's initials could be displayed on the individual game webpages so that there is a way to thank them for their support.
 
