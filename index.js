@@ -36,7 +36,7 @@ function addGamesToPage(games) {
             <h3> ${games[i].name}</h3>
             <h4> ${games[i].description}</h4>
             <h4> Backers: ${games[i].backers}</h4>
-            <a href = "game.html"?name=${games[i].name}> Learn More </a>
+            <a href = "indGames.html?name=${games[i].name}"> Learn More </a>
         `
         gamesContainer.appendChild(gameDiv);
     }
@@ -202,3 +202,6 @@ secondGameContainer.appendChild(secDiv);
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 
 // do the same for the runner up item
+
+
+

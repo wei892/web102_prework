@@ -80,3 +80,15 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#suggestions{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#ideas{
+    padding: 20px;
+}

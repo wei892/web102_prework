@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #758190;
+}
+
+#tentacles {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: lightblue;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+
+#gameTitle{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+#gameimg{
+    text-align: center;
+}
+
+#gameDesc{
+    text-align: center;
+    margin: auto;
+}
+
+#register{
+    color: black;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
