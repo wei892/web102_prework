@@ -34,7 +34,6 @@ descriptionContainer.innerHTML = `
 <div> Backers: ${GAMES_JSON[ind].backers}</div>
 <div> Progress Pledged: ${progressPledge}%</div>
 `;
-
 //src = "${games[i].img}" class="game-img" />
 gameDesc.appendChild(descriptionContainer);
 
